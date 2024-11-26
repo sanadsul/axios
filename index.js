@@ -1,5 +1,5 @@
-const express = require("express");
-const fetch = require("node-fetch"); // تأكد من تثبيت الحزمة node-fetch
+import express from "express";
+import fetch from "node-fetch"; // تأكد من تثبيت الحزمة node-fetch
 
 const app = express();
 const port = 3000;
